@@ -8,7 +8,7 @@ Out of the box, the site uses completely static data coming from a provider at `
 
 ### Live preview
 
-Click [here](https://www.jamstackecommerce.dev/) to see a live preview.
+
 
 <details>
   <summary>Other Jamstack ECommerce pages</summary>
@@ -31,7 +31,7 @@ Click [here](https://www.jamstackecommerce.dev/) to see a live preview.
 1. Clone the project
 
 ```sh
-$ git clone https://github.com/jamstack-cms/jamstack-ecommerce.git
+$ git clone https://github.com/Kobayashi19860206/JamEcommerce.git
 ```
 
 2. Install the dependencies:
@@ -170,12 +170,12 @@ await Promise.all(
 - Themeing + dark mode
 - Optional user account / profiles out of the box
 - Make Admin Panel responsive
-- Have an idea or a request? Submit [an issue](https://github.com/jamstack-cms/jamstack-ecommerce/issues) or [a pull request](https://github.com/jamstack-cms/jamstack-ecommerce/pulls)!
+- Have an idea or a request? Submit [an issue](https://github.com/Kobayashi19860206/JamEcommerce/issues) or [a pull request](https://github.com/Kobayashi19860206/JamEcommerce/pulls)!
 
 ### Other considerations
 
 #### Server-side processing of payments
 
-To see an example of how to process payments server-side with stripe, check out the [Lambda function in the snippets folder](https://github.com/jamstack-cms/jamstack-ecommerce/blob/next/snippets/lambda.js).
+To see an example of how to process payments server-side with stripe, check out the [Lambda function in the snippets folder](https://github.com/Kobayashi19860206/JamEcommerce/blob/next/snippets/lambda.js).
 
 Also, consider verifying totals by passing in an array of IDs into the function, calculating the total on the server, then comparing the totals to check and make sure they match.
